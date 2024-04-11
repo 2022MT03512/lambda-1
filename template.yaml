@@ -8,7 +8,7 @@ Resources:
     Properties:
       Handler: lambda_code.lambda_handler
       Runtime: python3.9
-      CodeUri: ./lambda_code.py
+      CodeUri: ./
       Description: A simple AWS Lambda function that returns "Hello, world!"
       MemorySize: 128
       Timeout: 10
