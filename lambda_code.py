@@ -1,9 +1,8 @@
 import json
 
 def lambda_handler(event, context):
-    # Lambda function logic goes here
-    return 
-    {
+    
+    return {
         'statusCode': 200,
-        'body': json.dumps('Hello from Lambda!')
+        'body': json.dumps('Hello from AWS!')
     }
