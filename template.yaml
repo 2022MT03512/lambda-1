@@ -1,7 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: Simple AWS Lambda Function
-
 Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
@@ -9,7 +8,7 @@ Resources:
       Handler: lambda_code.lambda_handler
       Runtime: python3.9
       CodeUri: ./
-      Description: A simple AWS Lambda function that returns "Hello, world!"
+      Description: AWS Lambda function that returns "Hello, world!"
       MemorySize: 128
       Timeout: 10
       Policies:
